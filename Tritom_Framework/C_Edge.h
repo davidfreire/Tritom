@@ -101,6 +101,7 @@ public:
      *
      * @param vertex_1 First vertex.
      * @param vertex_2 Second vertex.
+     * @param tmp_edge Temporal variable.
      */
 	C_Edge(C_Vertex *vertex_1, C_Vertex *vertex_2, CvQuadEdge2D *tmp_edge=NULL);
     
@@ -140,7 +141,7 @@ public:
      * Checks if an edge links two vertices (output is 1 if links, or 0 if not).
      *
      * @param vrtx1 First vertex.
-     * @param vrtx1 Second vertex.
+     * @param vrtx2 Second vertex.
      */
 	int Check_Vertex(C_Vertex *vrtx1, C_Vertex *vrtx2);
 

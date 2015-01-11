@@ -275,7 +275,7 @@ void C_DMUM::compute_minima()
 
 
 
-int C_DMUM::Generate_tritom_from_DMUM(C_Tritom *titrom)
+int C_DMUM::Generate_tritom_from_DMUM(C_Tritom *tritom)
 {
     CvMemStorage* storage;
     IplImage *show_img;
@@ -341,7 +341,7 @@ int C_DMUM::Generate_tritom_from_DMUM(C_Tritom *titrom)
             cvSubdivDelaunay2DInsert( subdiv, fp );
                 
             //Update C_Tritom
-            titrom->Insert_Delaunay_Point(r.p);
+            tritom->Insert_Delaunay_Point(r.p);
         }
             
     }
@@ -350,14 +350,14 @@ int C_DMUM::Generate_tritom_from_DMUM(C_Tritom *titrom)
     cvReleaseMemStorage( &storage );
     
     //Trixel structure is initialized
-    titrom->init_Trixels();
+    tritom->init_Trixels();
         
     return 1;
 }
 
 
 
-int C_DMUM::Compute_Trixels(IplImage *img, float gamma, C_Tritom *titrom)
+int C_DMUM::Compute_Trixels(IplImage *img, float gamma, C_Tritom *tritom)
 {
 	//printf("\nGamma = %f",gamma);
 	this->DMUM(img, gamma);

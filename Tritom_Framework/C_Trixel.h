@@ -277,7 +277,7 @@ public:
     /**
      * Updates the edge list.
      *
-     * @param val The valid bit.
+     * @param new_edge New edge.
      */
 	void Update_Edges(C_Edge *new_edge);
     

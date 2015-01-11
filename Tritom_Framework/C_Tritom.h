@@ -218,7 +218,7 @@ public:
 	void Highlight_Trixel(CvPoint pt, IplImage *img, CvScalar color);
     
     
-    //Dibuja un triangulo
+
     //Imprime todos los triangulos en un color -> en realidad se imprimen todas las aristas
     /**
      * Only draws on the image the specified trixel that belongs to the input point.
@@ -251,8 +251,6 @@ public:
     
     
     
-    
-    //Dibuja la imagen pero el contenido de cada triangulo es la media de todos los pixels que forman el triángulo
     /**
      * Draws the source image based on the average value of all pixels inside each trixel.
      *
@@ -284,6 +282,7 @@ public:
      * Given an input point, returns the centroid of the trixel to which it belongs.
      *
      * @param pt Input point.
+     * @param centroid Output centroid.
      */
     int Get_Trixel_Centroid(CvPoint pt, CvPoint *centroid);
     
@@ -297,8 +296,16 @@ public:
     
 
 
-    //Histogramas
-    //Dado dos puntos, obtiene el triángulo de cada punto y devuelve una gráfica con los histogramas de ambos triángulos.
+    //Histograms
+    /**
+     * Given two points, obtains the trixel that belongs to both points and provides the histogram for each trixel.
+     *
+     * @param pt1 First input point.
+     * @param pt2 Second input point.
+     * @param img Input image.
+     * @param color Color.
+     * @param signal Output image.
+     */
     void DrawHist_Comp(CvPoint pt1, CvPoint pt2, IplImage *img, CvScalar color, IplImage **signal);
 
 };

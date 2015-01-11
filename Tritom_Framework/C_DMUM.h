@@ -79,17 +79,16 @@ class C_DMUM
 	void DMUM(IplImage *img, float gamma);
 	void compute_minima();
 
-	int Generate_tritom_from_DMUM(C_Tritom *titrom);
+	int Generate_tritom_from_DMUM(C_Tritom *tritom);
 
-	//compute delaunay triangularization from DTUM minima and create a new full C_Tritom structure
     /**
      * Computes the Delaunay triangularization from DTUM minima and creates the Tritom structure.
      *
      * @param img Input image.
      * @param gamma DMUM parameter.
-     * @param TriToM Input image.
+     * @param tritom Tritom structure.
      */
-	int Compute_Trixels(IplImage *img, float gamma, C_Tritom *titrom);
+	int Compute_Trixels(IplImage *img, float gamma, C_Tritom *tritom);
 
 
     private:
