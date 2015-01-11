@@ -362,5 +362,5 @@ int C_DMUM::Compute_Trixels(IplImage *img, float gamma, C_Tritom *tritom)
 	//printf("\nGamma = %f",gamma);
 	this->DMUM(img, gamma);
 	this->compute_minima();
-	return this->Generate_tritom_from_DMUM(titrom);
+	return this->Generate_tritom_from_DMUM(tritom);
 }
