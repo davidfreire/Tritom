@@ -23,6 +23,6 @@ var searchData=
   ['calculate_5fdistance_5fyaxis',['Calculate_Distance_Yaxis',['../class_c___trixel.html#aea30214b36b392b7a0912d7fb994ca6f',1,'C_Trixel']]],
   ['check_5fvertex',['Check_Vertex',['../class_c___edge.html#a5d66f5fc7216fe4cd29210a56d623c7b',1,'C_Edge::Check_Vertex()'],['../class_c___trixel.html#a70138465dc4b0ce719cb1a68b4f75c52',1,'C_Trixel::Check_Vertex()']]],
   ['clear_5fhistogram_5fimage',['Clear_Histogram_Image',['../class_c___histogram.html#a1e1f4a160f548de3d48fd9eacb4eb372',1,'C_Histogram']]],
-  ['compute_5ftrixels',['Compute_Trixels',['../class_c___d_m_u_m.html#ade00215ba6960ab7e617dde18fd15376',1,'C_DMUM']]],
+  ['compute_5ftrixels',['Compute_Trixels',['../class_c___d_m_u_m.html#abb855c177ee4abdc01fad5b6741c6faf',1,'C_DMUM']]],
   ['create_5fhistograms',['Create_Histograms',['../class_c___histogram.html#a5d25b8b19172617c413232244fcc0fe2',1,'C_Histogram']]]
 ];

@@ -7,5 +7,6 @@ var searchData=
   ['draw_5ftrixel',['Draw_trixel',['../class_c___tritom.html#a120bc42f042fa66df23d418d845285f7',1,'C_Tritom']]],
   ['draw_5fvector_5flist',['Draw_Vector_List',['../class_c___vertex.html#abfec075c25f6cc256a059ee638a1e012',1,'C_Vertex']]],
   ['draw_5fvrtxandvctr',['Draw_VrtxandVctr',['../class_c___tritom.html#a1ffd6a4247d2748d3607acc1313a22b4',1,'C_Tritom']]],
+  ['drawhist_5fcomp',['DrawHist_Comp',['../class_c___tritom.html#a7e97cd7ff31b92c513391f693a9f2dbc',1,'C_Tritom']]],
   ['drawhistograms',['DrawHistograms',['../class_c___histogram.html#a7ae43d6a461c2b9a813929f04f219367',1,'C_Histogram']]]
 ];
