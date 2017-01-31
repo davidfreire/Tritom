@@ -1,4 +1,4 @@
-Citations: http://ieeexplore.ieee.org/document/7026007/
+Related paper: http://ieeexplore.ieee.org/document/7026007/
 
 Plain text:
 
