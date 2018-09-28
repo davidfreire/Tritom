@@ -12,7 +12,6 @@ URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7026007&isnumber=70
 <br /><br /><br />
 BibTex:<br /><br />
 
-
 @INPROCEEDINGS{7026007, <br />
 author={D. Freire-Obregon and M. Castrillon-Santana and E. Ramon-Balmaseda and J. Lorenzo-Navarro}, <br />
 booktitle={2014 IEEE International Conference on Image Processing (ICIP)}, <br />
