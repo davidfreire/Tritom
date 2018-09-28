@@ -9,17 +9,18 @@ URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7026007&isnumber=70
 
 
 
+<br /><br /><br />
+BibTex:<br /><br />
 
-BibTex:
 
-@INPROCEEDINGS{7026007, 
-author={D. Freire-Obregon and M. Castrillon-Santana and E. Ramon-Balmaseda and J. Lorenzo-Navarro}, 
-booktitle={2014 IEEE International Conference on Image Processing (ICIP)}, 
-title={Automatic clothes segmentation for soft biometrics}, 
-year={2014}, 
-pages={4972-4976}, 
-doi={10.1109/ICIP.2014.7026007}, 
-ISSN={1522-4880}, 
-month={Oct},}
+@INPROCEEDINGS{7026007, <br />
+author={D. Freire-Obregon and M. Castrillon-Santana and E. Ramon-Balmaseda and J. Lorenzo-Navarro}, <br />
+booktitle={2014 IEEE International Conference on Image Processing (ICIP)}, <br />
+title={Automatic clothes segmentation for soft biometrics}, <br />
+year={2014}, <br />
+pages={4972-4976}, <br />
+doi={10.1109/ICIP.2014.7026007}, <br />
+ISSN={1522-4880}, <br />
+month={Oct},}<br />
 
 
